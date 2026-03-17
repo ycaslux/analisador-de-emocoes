@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from datetime import datetime
 
@@ -9,9 +9,7 @@ analises = []
 contador_id = 1
 
 
-
 def analisar_sentimento(texto):
-
     palavras_positivas = ["feliz", "bom", "ótimo", "maravilhoso", "excelente"]
     palavras_negativas = ["triste", "ruim", "péssimo", "horrível", "terrível"]
 
@@ -26,6 +24,12 @@ def analisar_sentimento(texto):
             return "negativo"
 
     return "neutro"
+
+
+# FRONT
+@app.route("/")
+def index():
+    return send_from_directory(".", "index.html")
 
 
 # CREATE
@@ -53,7 +57,7 @@ def criar_analise():
     return jsonify(nova_analise), 201
 
 
-# READ 
+# READ
 @app.route("/analises", methods=["GET"])
 def listar_analises():
     return jsonify(analises)
