@@ -1,4 +1,4 @@
-# 📝 Analisador de Texto
+#  Analisador de Texto
 
 Aplicação web para análise de sentimentos em textos, com histórico de análises e interface visual simples.
 
@@ -8,7 +8,7 @@ Aplicação web para análise de sentimentos em textos, com histórico de análi
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - Análise de sentimento de textos (positivo, negativo ou neutro)
 - Contagem de palavras e caracteres
@@ -18,9 +18,9 @@ Aplicação web para análise de sentimentos em textos, com histórico de análi
 
 ---
 
-## 🖥️ Demonstração
+##  Demonstração
 
-> Digite um texto → clique em **Analisar** → veja o sentimento detectado e o histórico completo.
+> Digite um texto → clique em Analisar -> veja o sentimento detectado e o histórico completo.
 
 ---
 
@@ -32,7 +32,7 @@ Aplicação web para análise de sentimentos em textos, com histórico de análi
 
 ---
 
-## 📦 Como rodar localmente
+##  Como rodar localmente
 
 ### Pré-requisitos
 
@@ -112,15 +112,6 @@ analisador-de-texto/
 ├── .gitignore        # Arquivos ignorados pelo Git
 └── README.md         # Documentação
 ```
-
----
-
-## 📌 Melhorias futuras
-
-- [ ] Integração com biblioteca de NLP (ex: NLTK ou transformers)
-- [ ] Persistência dos dados com banco de dados (SQLite/PostgreSQL)
-- [ ] Deploy na nuvem (Render ou Railway)
-- [ ] Testes automatizados com pytest
 
 ---
 
