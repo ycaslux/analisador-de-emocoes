@@ -43,7 +43,7 @@ Aplicação web para análise de sentimentos em textos, com histórico de análi
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/ycaslux/analisador-de-texto.git
+git clone https://github.com/ycaslux/analisador-de-emocoes.git
 cd analisador-de-texto
 ```
 
