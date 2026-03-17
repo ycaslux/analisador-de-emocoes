@@ -20,7 +20,7 @@ Aplicação web para análise de sentimentos em textos, com histórico de análi
 
 ##  Demonstração
 
-> Digite um texto → clique em Analisar -> veja o sentimento detectado e o histórico completo.
+> Digite um texto -> clique em Analisar -> veja o sentimento detectado e o histórico completo.
 
 ---
 
